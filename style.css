@@ -209,7 +209,7 @@ header.smaller {
 
 .container {
   width: 95%;
-  max-width: 1200px;
+  max-width: 1700px;
   margin: 0 auto;
   z-index: 2;
 
@@ -635,7 +635,10 @@ transform: scale(1.1);
 .arrow {
   position: relative;
   background: white;
-  
+  padding: 10px 0;}
+@media only screen and (min-width: 767px) {
+.arrow {
+  padding: 0 20px;}
 }
 
 .arrow p {

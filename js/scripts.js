@@ -32,6 +32,11 @@ $(".fancybox")
 
 //
 
+// Wow 
+if (window.innerWidth > 780) {
+  new WOW().init();
+}
+
  function init() {
         window.addEventListener('scroll', function(e){
             var distanceY = window.pageYOffset || document.documentElement.scrollTop,
